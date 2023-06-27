@@ -17,7 +17,7 @@ def index():
 
         sender_email = "resoshubham2002@gmail.com"
         receiver_email = email
-        password = "vwwpdhyibyjzzkbg"
+        password = ""
         subject = "Form Submitted"
         message = "Thanks for submission"
 
