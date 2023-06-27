@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connect to the database
-conn = sqlite3.connect('Athena.db')
+conn = sqlite3.connect('data.db')
 c = conn.cursor()
 
 # Retrieve all data from the table
