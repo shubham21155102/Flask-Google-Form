@@ -1,0 +1,40 @@
+<!-- alldatas.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='alldatas.css') }}">
+
+</head>
+
+<body>
+    <h1>All Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Branch</th>
+                <th>Roll</th>
+                <th>Year</th>
+                <th>DOB</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+                <td>{{ row[4] }}</td>
+                <td>{{ row[5] }}</td>
+                <td>{{ row[6] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add more CSS rules as needed */
+  
